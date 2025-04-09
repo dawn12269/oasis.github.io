@@ -98,14 +98,3 @@
     </div>
   </body>
 </html>
-<!-- 在HTML中添加 -->
-<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
-<canvas id="qrcode"></canvas>
-<script>
-  QRCode.toCanvas(document.getElementById('qrcode'), '你的网页URL', {
-    width: 200,
-    margin: 2
-  }, (error) => {
-    if (error) console.error(error);
-  });
-</script>
