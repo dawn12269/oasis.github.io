@@ -21,7 +21,7 @@
       }
 
       .logo {
-        height: 100px;
+        height: 120px;
       }
 
       .content {
